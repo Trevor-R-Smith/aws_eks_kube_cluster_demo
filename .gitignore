@@ -1,3 +1,6 @@
+# idea folder
+.idea
+
 # Local .terraform directories
 **/.terraform/*
 
@@ -20,7 +23,6 @@ crash.log
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
 override.tf
-override.tf.json
 *_override.tf
 *_override.tf.json
 
@@ -30,3 +32,4 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+/.idea/
